@@ -1,0 +1,12 @@
+.Summary {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+}
+
+.Summary .Title {
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(224, 30%, 27%);
+}

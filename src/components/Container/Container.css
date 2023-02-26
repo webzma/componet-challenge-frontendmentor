@@ -1,0 +1,25 @@
+.Container {
+  width: 90%;
+  margin: auto;
+  max-width: 720px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 1px 1px 40px 5px hsl(221, 100%, 96%);
+  border-radius: 30px;
+}
+
+@media (max-width: 564px){
+  .Container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .Result {
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .GreatText {
+    margin: 15px;
+  }
+}

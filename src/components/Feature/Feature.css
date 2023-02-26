@@ -1,0 +1,29 @@
+.Feature {
+  width: 90%;
+  padding: 14px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.Feature > div {
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  width: 22px;
+  margin-right: 5px;
+}
+
+.Feature .Porcent {
+  color: hsl(242, 12%, 57%);
+}
+
+.Feature #Number {
+  font-weight: 800;
+  color: #000;
+}

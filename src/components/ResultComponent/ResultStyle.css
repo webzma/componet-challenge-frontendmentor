@@ -1,0 +1,22 @@
+.Result {
+  text-align: center;
+  padding: 20px 30px;
+  border-radius: 30px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.Result .Title {
+  font-size: 22px;
+  font-weight: 600;
+  color: hsl(241, 100%, 89%);
+}
+
+.Result .GreatText {
+  font-weight: 800;
+  font-size: 35px;
+  color: white;
+}
+
+.Result .TextResult {
+  color: hsl(241, 100%, 89%);
+}
